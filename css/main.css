@@ -67,7 +67,8 @@ a:hover {
 
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-	margin: 0px;
+  margin: 0px;
+  color: white;
 }
 
 p {
@@ -171,12 +172,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #fff;  
+  background: black;  
 }
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 
@@ -221,7 +222,7 @@ iframe {
 .input100 {
   font-family: Poppins-SemiBold;
   font-size: 18px;
-  color: #555555;
+  color: #fff;
   line-height: 1.2;
 
   display: block;
