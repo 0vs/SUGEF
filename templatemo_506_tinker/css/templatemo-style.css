@@ -157,7 +157,7 @@ p {
     border: none;
 }
 .page-section {
-	padding: 80px 0;
+	padding: 255px 0;
 	text-align: center;
 	align-items: center;
 }
@@ -254,7 +254,6 @@ bootstrap.min.css:5
 
 
 #about {
-	padding: 150px 0px;
 	background-image: url(../img/about-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
