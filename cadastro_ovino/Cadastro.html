@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Cadastro Animal - Formoid bootstrap form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-false" style="background-color:#EBEBEB">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="cadastro_files/formoid1/formoid-solid-dark.css" type="text/css" />
+<script type="text/javascript" src="cadastro_files/formoid1/jquery.min.js"></script>
+<form enctype="multipart/form-data" class="formoid-solid-dark" style="background-color:#FFFFFF;font-size:13px;font-family:'Roboto',Arial,Helvetica,sans-serif;color:#34495E;max-width:800px;min-width:150px" method="post"><div class="title"><h2>Cadastro Animal</h2></div>
+	<div class="element-input" title="Brinco"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="small" type="text" name="input" required="required" placeholder="Brinco"/><span class="icon-place"></span></div></div>
+	<div class="element-input" title="Nome"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="medium" type="text" name="input1" required="required" placeholder="Nome"/><span class="icon-place"></span></div></div>
+	<div class="element-radio" title="Espécie"><label class="title">Espécie<span class="required">*</span></label>		<div class="column column1"><label><input type="radio" name="radio1" value="Caprino" required="required"/><span>Caprino</span></label><label><input type="radio" name="radio1" value="Ovino" required="required"/><span>Ovino</span></label></div><span class="clearfix"></span>
+</div>
+	<div class="element-input" title="Raça"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="small" type="text" name="input2" required="required" placeholder="Raça"/><span class="icon-place"></span></div></div>
+	<div class="element-radio" title="Sexo"><label class="title">Sexo<span class="required">*</span></label>		<div class="column column1"><label><input type="radio" name="radio" value="Macho" required="required"/><span>Macho</span></label><label><input type="radio" name="radio" value="Fêmea" required="required"/><span>Fêmea</span></label></div><span class="clearfix"></span>
+</div>
+	<div class="element-number" title="Peso"><label class="title"><span class="required">*</span></label><div class="item-cont"><input class="small" type="text" min="0" max="1000" name="number" required="required" placeholder="Peso" value=""/><span class="icon-place"></span></div></div>
+	<div class="element-date" title="Data de Nascimento"><label class="title"></label><div class="item-cont"><input class="small" data-format="yyyy-mm-dd" type="date" name="date" placeholder="Data de Nascimento"/><span class="icon-place"></span></div></div>
+	<div class="element-number"><label class="title"></label><div class="item-cont"><input class="small" type="text" min="0" max="100" name="number1" placeholder="Brinco do Pai" value=""/><span class="icon-place"></span></div></div>
+	<div class="element-number"><label class="title"></label><div class="item-cont"><input class="small" type="text" min="0" max="100" name="number2" placeholder="Brinco da Mãe" value=""/><span class="icon-place"></span></div></div>
+	<div class="element-file" title="Foto"><label class="title"><span class="required">*</span></label><div class="item-cont"><label class="medium" ><div class="button">Selecionar foto</div><input type="file" class="file_input" name="file" required="required"/><div class="file_text">Nenhuma foto selecionada</div><span class="icon-place"></span></label></div></div>
+<div class="submit"><input type="submit" value="Cadastrar"/></div></form><p class="frmd"><a href="http://formoid.com/v29.php">bootstrap form</a> Formoid.com 2.9</p><script type="text/javascript" src="cadastro_files/formoid1/formoid-solid-dark.js"></script>
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>
