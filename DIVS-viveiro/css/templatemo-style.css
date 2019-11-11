@@ -26,6 +26,19 @@ p {
 	font-size: 14px;
 	line-height: 24px;
 }
+.txtt{
+	margin-bottom: 30px;
+    margin-top: 45px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+	letter-spacing: 1px;
+	display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .parallax-content {
   width: 100%;
