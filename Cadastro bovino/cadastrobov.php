@@ -11,7 +11,7 @@
 	$nome = $_REQUEST['input'];
 	$cod = $_REQUEST['number'];
 	
-	echo "Cadastrado o animal $cod de nome $nome";
+	echo <p>"Cadastrado o animal $cod de nome $nome"</p>;
 	?>
 </body>
 </html>
