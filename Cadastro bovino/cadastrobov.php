@@ -7,7 +7,11 @@
 </head>
 <body class="blurBg-false" style="background-color:#EBEBEB">
 
-{{Formoid}}
-
+	<?php
+	$nome = $_REQUEST['input'];
+	$cod = $_REQUEST['number'];
+	
+	echo "Cadastrado o animal $cod de nome $nome";
+	?>
 </body>
 </html>
