@@ -1,4 +1,4 @@
-<?php $form_path='cadastrobov_files/formoid1/form.php'; require_once $form_path; ?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
