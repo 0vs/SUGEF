@@ -83,7 +83,7 @@ p {
     z-index: 10000;
     transition: all 0.2s ease-in-out;
     height: 80px;
-    background-color:transparent;  
+    background-color: RGBA(0,0,0,0.4);
     
     text-align: center;
     line-height: 40px;
