@@ -23,21 +23,33 @@ ul {
 
 p {
 	margin-bottom: 0px;
-    margin-top: 0;
-    font-size: 17px;
-    font-weight: 500;
-    color: #fff;
-    letter-spacing: 1px;
+    	margin-top: 0;
+    	font-size: 17px;
+    	font-weight: 500;
+    	color: #fff;
+    	letter-spacing: 1px;
 }
 
 .tx{
 	margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #fff;
+   	margin-top: 0px;
+   	font-size: 17px;
+   	font-weight: 500;
+    	color: #fff;
 	letter-spacing: 1px;
 	text-align: right;
+}
+
+.test{
+	text-shadow: none;
+	color: #fff!important;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 80px;
+	padding: 17px;
+	letter-spacing: 0.5px;
 }
 
 .forms {
