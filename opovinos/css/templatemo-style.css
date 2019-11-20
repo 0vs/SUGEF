@@ -40,6 +40,19 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+.test{
+	text-shadow: none;
+	color: #fff!important;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 80px;
+	padding: 17px;
+	letter-spacing: 0.5px;
+}
+
 .parallax-content {
   width: 100%;
   min-height: 100vh;
